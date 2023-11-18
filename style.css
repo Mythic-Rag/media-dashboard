@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    position:relative;
+    object-fit: fill;
+    background-color:#474B4B;
+    overflow: hidden;
+    padding: 28px 32px;
+}
+
+.jellyfin-button{
+    width: 120px;
+    height: 120px;
+    position: relative;
+    object-fit:fill;
+    right: -400px;
+    border-radius: 10px;
+    color: #474B4B
+    
+}
+
+.jellyfin-button img{
+    width: 120px;
+    height: 120px;
+    position: relative;
+    border-image: fill;
+    top: 2px;
+    border-radius: 20px;
+    
+}
+
+.jellyseerr-button{
+    width: 100px;
+    height: 130px;
+    position: relative;
+    object-fit:fill;
+    right: -530px;
+    top:-119px;
+    background-color: #474B4B;
+}
+
+.jellyseerr-button img{
+    width: 400px;
+    height: 120px;
+    position: relative;  
+    border-radius: 20px;  
+}
+
+
+
